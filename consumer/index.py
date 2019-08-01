@@ -43,7 +43,7 @@ def hello():
    
 
 
-     def callback(ch, method, properties, body):
+    def callback(ch, method, properties, body):
         global mi
         print(" [x] %r:%r" % (method.routing_key, body))
         mi=body
