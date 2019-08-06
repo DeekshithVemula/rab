@@ -1,5 +1,6 @@
+import os
+from flask import Flask
 import pika
-import time
 import sys
 
 service=sys.argv[1]
